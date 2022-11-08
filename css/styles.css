@@ -1,0 +1,248 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+
+/* title section */
+
+#title {
+  /* background-color: #FFB200; */
+  /* background-color: #38E54D; */
+  /* background-color: #00ABB3; */
+  padding: 1% ;
+  /* background-image: url("https://images.unsplash.com/photo-1617396900799-f4ec2b43c7ae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8d2FsbHBhcGVyJTIwNGt8ZW58MHx8MHx8&w=1000&q=80"); */
+
+  /* background-image: url("https://w0.peakpx.com/wallpaper/205/120/HD-wallpaper-orange-edge-black-red-door-carbon-blue-modern-fibre-ultra.jpg")
+
+} */
+background-image: url("https://cdn.dribbble.com/users/931696/screenshots/3185798/3d_loop.gif");
+  /* background-image: url("https://wallpapercave.com/wp/wp2757880.gif"); */
+/* background-size: auto; */
+background-size: 50%;
+}
+
+.pos-tit {
+  position: sticky;
+  top: 0;
+}
+.icon {
+  color : white;
+  font-size: 100px;
+
+}
+.icon:hover{
+  color: #C47AFF;
+  /* color: #00ABB3; */
+  /* color: #A7FFE4; */
+  /* color: #6FEDD6; */
+  /* color: #38E54D; */
+}
+.text-title {
+  /* color: black; */
+  color: white;
+  padding: 5%;
+
+}
+
+.glass {
+  /* background-color: black; */
+padding: 1% 2%;
+
+}
+
+.title-btn-fn {
+  /* function */
+}
+
+/* feature section */
+
+.col-center {
+  text-align: center;
+  padding: 3%;
+}
+
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+  background-color: #FCFCFC;
+}
+
+.icon-feature{
+  margin: 4%;
+}
+.icon-feature:hover {
+  /* color:#EA047E; */
+  color:#C47AFF;
+  /* color: #00ABB3; */
+  /* color:grey; */
+}
+
+.h3-feat {
+  /* color: #00ABB3; */
+  color: #C47AFF;
+  /* color: #00ABB3; */
+  /* color: #FFB200; */
+  /* color: #38E54D; */
+}
+.h3-feat:hover {
+  color: black;
+}
+p {
+  color: #8f8f8f;
+}
+
+
+
+/* ----------------------- */
+
+
+/* music section */
+#music {
+  /* background-color: #EEEEEE; */
+  background-image: url("https://cdn.wallpapersafari.com/58/60/3QEmqC.gif");
+  background-size: auto;
+  padding: 5%;
+}
+
+.col-music {
+  padding: 2% 3%;
+}
+
+.t-pad {
+  text-align: center;
+  padding:  1%;
+}
+.t-music{
+  text-align: center;
+  padding: 0 2.1% 3% 0;
+}
+.icon-ex {
+  color:grey;
+  /* color: #00ABB3;
+   */
+   /* color: white; */
+}
+.icon-ex:hover {
+  color:white;
+  /* color:black; */
+}
+.play-anim {
+
+color: grey;
+}
+.play-anim:hover {
+  color: black;
+  /* color: grey; */
+}
+.img-set{
+
+      object-fit: cover;
+}
+.audio-con{
+  background-color: white;
+}
+
+.accordion {
+  /* background-color: #eee; */
+  /* color: #444; */
+  /* cursor: pointer; */
+  /* padding: 18px; */
+  /* width: 100%; */
+  /* text-align: left; */
+  border: none;
+  /* outline: none; */
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  /* background-color: #ccc; */
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  /* padding: 0 18px; */
+  background-color: white;
+  display: none;
+  overflow: hidden;
+  float: none;
+}
+
+
+.c-white{
+  color: white;
+}
+
+
+/* footer section */
+#footer {
+  text-align: center;
+  padding: 5%;
+}
+
+
+/* artist section */
+
+.pop {
+list-style-type:none;
+}
+.pop-img {
+border-radius: 100%;
+}
+#carouselExampleCaptions {
+
+  padding: 2%;
+  text-align: center;
+  /* background-color: black; */
+}
+.carousel-caption{
+/* position: relative; */
+
+}
+
+.pad-art{
+  padding: 2%;
+}
+
+.fw-normal {
+  line-height: 2;
+}
+.img-art{
+width: 40%;
+border-radius: 100%;
+}
+/* pricing section */
+#pricing {
+  padding: 100px;
+  /* background-color: grey; */
+  background-image: url("https://i.pinimg.com/originals/a1/77/df/a177dfc84703c31afa0d501ccf43fe4f.gif");
+  background-size: 20%;
+}
+
+.price-h {
+  color : white;
+}
+.price-text {
+
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+  text-align:  center;
+}
+
+.icon-price {
+  color: white;
+}
+.icon-price:hover {
+  color: #EA047E;
+  /* color:#C47AFF; */
+  /* color: #00ABB3; */
+}
