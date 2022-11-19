@@ -224,8 +224,30 @@ border-radius: 100%;
   background-size: 20%;
 }
 
+.card-p {
+  background-image: url("https://i.scdn.co/image/ab67706c0000bebbfb5105056c795cb2b733d2e2");
+}
+.card-p1 {
+  background-image: url("https://i.scdn.co/image/ab67616d0000b273fb5342479f2c8ffc8340a79f");
+  background-size: 100%;
+
+}
+.card-p2 {
+  background-image: url("https://i.scdn.co/image/ab67706c0000bebb28a02c45d040eff85657411e");
+  background-image: 100%;
+
+
+}
+
+.p-b{
+  color: black;
+}
+
 .price-h {
   color : white;
+}
+.price-h1 {
+  color : black;
 }
 .price-text {
 
