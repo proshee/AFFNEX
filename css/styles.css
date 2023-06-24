@@ -6,7 +6,9 @@ body {
   font-family: "Montserrat";
 }
 
-
+.head-b {
+  color:black;
+}
 /* title section */
 
 #title {
